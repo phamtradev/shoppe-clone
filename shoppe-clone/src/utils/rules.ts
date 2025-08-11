@@ -34,7 +34,7 @@ export const getRules = (getValues?: UseFormGetValues<any>): Rules => ({
   password: {
     required: {
       value: true,
-      message: 'password không được để trống !',
+      message: 'Password không được để trống !',
     },
     maxLength: {
       value: 160,

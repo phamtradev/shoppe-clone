@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
+import Input from 'src/components/Input';
+import { getRules } from 'src/utils/rules';
 
 const Login = () => {
   const {
@@ -11,6 +13,7 @@ const Login = () => {
   const onSubmit = handleSubmit((data) => {
     console.log(data);
   });
+
   return (
     <div className="bg-orange">
       <div className="containers">
